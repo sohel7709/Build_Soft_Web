@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Existing styles */
+        *, *:before, *:after {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+            font-size: 12px;
+        }
+
+        body, button, input {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+        }
+
+        .background {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 0 1 900px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .screen {
+            display: flex;
+            position: relative;
+            background: #3e3e3e;
+            border-radius: 15px;
+        }
+
+        .screen:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            right: 20px;
+            bottom: 0;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+            z-index: -1;
+        }
+
+        .screen-header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background: #4d4d4f;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .screen-header-left {
+            margin-right: auto;
+        }
+
+        .screen-header-button {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            margin-right: 3px;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .screen-header-button.close {
+            background: #ed1c6f;
+        }
+
+        .screen-header-button.maximize {
+            background: #e8e925;
+        }
+
+        .screen-header-button.minimize {
+            background: #74c54f;
+        }
+
+        .screen-header-right {
+            display: flex;
+        }
+
+        .screen-header-ellipsis {
+            width: 3px;
+            height: 3px;
+            margin-left: 2px;
+            border-radius: 8px;
+            background: #999;
+        }
+
+        .screen-body {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .screen-body-item {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .screen-body-item.left {
+            display: flex;
+            flex-direction: column;
+            background: #4d4d4f;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ea1d6f;
+    font-size: 26px;
+    text-align: center; /* Centers the text horizontally */
+    justify-content: center; /* Centers the text vertically */
+    align-items: center; /* Centers the text horizontally */
+}
+
+
+        .app-title:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 25px;
+            height: 4px;
+            background: #ea1d6f;
+        }
+
+        .app-contact {
+            margin-top: auto;
+            font-size: 12px;
+            color: #ddd;
+        }
+
+        .app-form-group {
+            margin-bottom: 15px;
+        }
+
+        .app-form-group.message {
+            margin-top: 40px;
+        }
+
+        .app-form-group.buttons {
+            margin-bottom: 0;
+            text-align: right;
+        }
+
+        .app-form-control {
+            width: 100%;
+            padding: 10px 0;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #666;
+            color: #ddd;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+            transition: border-color .2s;
+        }
+
+        .app-form-control::placeholder {
+            color: #666;
+        }
+
+        .app-form-control:focus {
+            border-bottom-color: #ddd;
+        }
+
+        .app-form-button {
+            background: none;
+            border: none;
+            color: #ea1d6f;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .app-form-button:hover {
+            color: #b9134f;
+        }
+
+        .map-container {
+            margin-top: 20px;
+        }
+
+        iframe {
+            border: none;
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width: 520px) {
+            .screen-body {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-body">
+                    <!-- Contact Information Section -->
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT US</span>
+                        </div>
+                        <p>Want to join BuildSoft  IT Services  community? Connect with us to discuss your IT needs, explore our services, or start a partnership. Our team is here to provide the perfect solution for your business growth.</p>
+                        <div class="app-contact">
+                            <p><strong>Location:</strong> Mokha Tower, Trimurti Nagar, Ring Road, Nagpur, India- 440022</p>
+                            <p><strong>Email:</strong> contact.buildsoftit@gmail.com</p>
+                            <p><strong>Phone:</strong> 7420962807 </p>
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5758573495274!2d79.07154231543544!3d21.12147838906467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c2a5e5b7b9b9%3A0x74253b57a27c8c59!2sMokha%20Tower%2C%20Trimurti%20Nagar%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1684321870076!5m2!1sen!2sin" width="100%" height="200"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Section -->
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">CANCEL</button>
+                                <button class="app-form-button">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
