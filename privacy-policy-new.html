@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - BuildSoft IT Solutions</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="https://res.cloudinary.com/dl7vvhgvw/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1737312579/BuildSoft_Chatgpt_aklyfi.webp" type="image/icon type">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      /**
+       * colors
+       */
+      --st-patricks-blue: hsl(236, 57%, 28%);
+      --amaranth-purple: hsl(335, 88%, 38%);
+      --royal-blue-dark: hsl(231, 68%, 21%);
+      --chrome-yellow: hsl(39, 100%, 52%);
+      --space-cadet-1: hsl(230, 41%, 25%);
+      --space-cadet-2: hsl(230, 59%, 16%);
+      --winter-sky_50: hsla(335, 87%, 53%, 0.5);
+      --purple-navy: hsl(236, 26%, 43%);
+      --ksu-purple: hsl(275, 54%, 33%);
+      --winter-sky: hsl(335, 87%, 53%);
+      --razzmatazz: hsl(335, 87%, 51%);
+      --platinum: hsl(0, 0%, 90%);
+      --black_70: hsla(0, 0%, 0%, 0.7);
+      --rajah: hsl(29, 99%, 67%);
+      --white: hsl(0, 0%, 100%);
+
+      --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
+      --gradient-2: linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
+
+      /**
+       * typography
+       */
+      --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
+      --ff-poppins: 'Poppins', sans-serif;
+
+      --fs-1: 4.2rem;
+      --fs-2: 3.8rem;
+      --fs-3: 3.2rem;
+      --fs-4: 2.5rem;
+      --fs-5: 2.4rem;
+      --fs-6: 2rem;
+      --fs-7: 1.8rem;
+      --fs-8: 1.5rem;
+
+      --fw-500: 500;
+      --fw-600: 600;
+      --fw-700: 700;
+
+      /**
+       * border radius
+       */
+      --radius-4: 4px;
+      --radius-12: 12px;
+
+      /**
+       * spacing
+       */
+      --section-padding: 60px;
+
+      /**
+       * transition
+       */
+      --transition-1: 0.15s ease;
+      --transition-2: 0.35s ease;
+      --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+      --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
+
+      /**
+       * shadow
+       */
+      --shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
+    }
+
+    /*-----------------------------------*\
+    #RESET
+    \*-----------------------------------*/
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    li { list-style: none; }
+
+    a { text-decoration: none; }
+
+    a,
+    img,
+    span,
+    input,
+    button,
+    ion-icon { display: block; }
+
+    button,
+    input {
+      background: none;
+      border: none;
+      font: inherit;
+    }
+
+    button { cursor: pointer; }
+
+    input { width: 100%; }
+
+    ion-icon { pointer-events: none; }
+
+    img { height: auto; }
+
+    address { font-style: normal; }
+
+    html {
+      font-family: var(--ff-poppins);
+      font-size: 10px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--white);
+      color: var(--purple-navy);
+      font-size: 1.6rem;
+    }
+
+    ::-webkit-scrollbar { width: 10px; }
+
+    ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
+
+    ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
+
+    ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
+
+    /*-----------------------------------*\
+    #REUSED STYLE
+    \*-----------------------------------*/
+    .container { padding-inline: 15px; }
+
+    .h2,
+    .h3 { font-family: var(--ff-source-sans-pro); }
+
+    .btn {
+      background-image: var(--gradient-2);
+      background-size: 200%;
+      color: var(--white);
+      padding: 12px 35px;
+      font-size: var(--fs-8);
+      font-weight: var(--fw-500);
+      border-radius: 0 25px;
+      transition: var(--transition-2);
+    }
+
+    .btn:is(:hover, :focus) { background-position: right; }
+
+    .w-100 { width: 100%; }
+
+    .section { padding-block: var(--section-padding); }
+
+    .section-title {
+      color: var(--st-patricks-blue);
+      font-size: var(--fs-3);
+      margin-block-end: 60px;
+      max-width: max-content;
+      margin-inline: auto;
+    }
+
+    .underline { position: relative; }
+
+    .underline::before {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70%;
+      height: 6px;
+      background-image: var(--gradient-2);
+      border-radius: 10px;
+    }
+
+    /*-----------------------------------*\
+    #HEADER
+    \*-----------------------------------*/
+    .header .btn { display: none; }
+
+    .header {
+      --color: var(--white);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding-block: 14px;
+      z-index: 4;
+      transition: var(--transition-1);
+    }
+
+    .header.active {
+      --color: var(--st-patricks-blue);
+      position: fixed;
+      background-color: var(--white);
+      box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
+    }
+
+    .header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo {
+      color: var(--color);
+      font-family: var(--ff-source-sans-pro);
+      font-size: var(--fs-3);
+    }
+
+    .nav-open-btn {
+      color: var(--color);
+      font-size: 32px;
+      padding: 4px;
+    }
+
+    .navbar {
+      background-color: var(--white);
+      position: fixed;
+      top: 0;
+      left: -280px;
+      width: 100%;
+      max-width: 280px;
+      min-height: 100%;
+      padding: 20px;
+      visibility: hidden;
+      z-index: 2;
+      transition: 0.25s var(--cubic-in);
+    }
+
+    .navbar.active {
+      transform: translateX(280px);
+      visibility: visible;
+      transition: 0.5s var(--cubic-out);
+    }
+
+    .navbar-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-block: 10px 30px;
+    }
+
+    .navbar-top .logo {
+      color: var(--st-patricks-blue);
+      font-size: 4.2rem;
+      font-weight: var(--fw-700);
+    }
+
+    .nav-close-btn {
+      color: var(--space-cadet-1);
+      font-size: 2.8rem;
+      padding: 4px;
+    }
+
+    .navbar-item:not(:last-child) { border-bottom: 1px solid var(--platinum); }
+
+    .navbar-link {
+      color: var(--space-cadet-1);
+      font-size: var(--fs-8);
+      font-weight: var(--fw-600);
+      padding-block: 12px;
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background-color: var(--black_70);
+      z-index: 1;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition-2);
+    }
+
+    .overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    /* Legal page specific styles */
+    .legal-content {
+      padding: 120px 20px 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .legal-header {
+      text-align: center;
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    .legal-title {
+      color: var(--st-patricks-blue);
+      font-size: var(--fs-2);
+      margin-bottom: 15px;
+      font-family: var(--ff-source-sans-pro);
+      font-weight: var(--fw-700);
+      position: relative;
+      display: inline-block;
+    }
+
+    .title-underline {
+      height: 5px;
+      width: 80px;
+      background-image: var(--gradient-2);
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+
+    .legal-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .legal-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+      background-image: var(--gradient-2);
+    }
+
+    .legal-icon {
+      font-size: 4rem;
+      color: var(--winter-sky);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: rgba(236, 72, 153, 0.1);
+      margin: 0 auto 30px;
+    }
+
+    .legal-subtitle {
+      color: var(--st-patricks-blue);
+      font-size: var(--fs-4);
+      margin-bottom: 20px;
+      font-family: var(--ff-source-sans-pro);
+      font-weight: var(--fw-600);
+    }
+
+    .legal-text {
+      margin-bottom: 25px;
+      line-height: 1.8;
+      font-size: 1.7rem;
+      color: var(--purple-navy);
+    }
+
+    .policy-section {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 30px;
+    }
+
+    .policy-section:last-child {
+      border-bottom: none;
+    }
+
+    .policy-highlight {
+      background-color: rgba(236, 72, 153, 0.05);
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      border-left: 4px solid var(--winter-sky);
+    }
+
+    .policy-highlight p {
+      font-weight: var(--fw-600);
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      color: var(--st-patricks-blue);
+    }
+
+    .policy-list {
+      padding-left: 20px;
+    }
+
+    .policy-list li {
+      list-style-type: disc;
+      margin-bottom: 10px;
+      line-height: 1.6;
+      font-size: 1.6rem;
+    }
+
+    .contact-box {
+      background-image: var(--gradient-1);
+      padding: 30px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .contact-box h3 {
+      font-size: var(--fs-6);
+      margin-bottom: 15px;
+      font-family: var(--ff-source-sans-pro);
+    }
+
+    .contact-box p {
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+    }
+
+    .contact-box a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background-color: white;
+      color: var(--winter-sky) !important;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: var(--fw-600);
+      text-decoration: none !important;
+      transition: transform 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      transform: translateY(-3px);
+    }
+
+    .legal-note {
+      text-align: center;
+      font-size: 1.4rem;
+      color: #777;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+
+    .table-of-contents {
+      background-color: #f8f9fa;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .table-of-contents h3 {
+      color: var(--st-patricks-blue);
+      font-size: var(--fs-7);
+      margin-bottom: 15px;
+      font-family: var(--ff-source-sans-pro);
+    }
+
+    .toc-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .toc-list li {
+      margin-bottom: 10px;
+    }
+
+    .toc-list a {
+      color: var(--purple-navy);
+      text-decoration: none;
+      display: block;
+      padding: 8px 10px;
+      border-left: 3px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    .toc-list a:hover {
+      background-color: rgba(236, 72, 153, 0.05);
+      border-left-color: var(--winter-sky);
+      padding-left: 15px;
+    }
+
+    /*-----------------------------------*\
+    #FOOTER
+    \*-----------------------------------*/
+    .footer { font-size: var(--fs-8); }
+
+    .footer a { color: inherit; }
+
+    .footer-top {
+      background-image: url("../images/footer-bg.png"), var(--gradient-1);
+      background-repeat: no-repeat;
+      background-size: auto, 200%;
+      background-position: center, center;
+      color: var(--white);
+    }
+
+    .footer-brand { margin-block-end: 30px; }
+
+    .footer-brand .logo {
+      font-weight: var(--fw-700);
+      margin-block-end: 15px;
+    }
+
+    .footer-brand .text {
+      font-size: var(--fs-8);
+      margin-block-end: 20px;
+    }
+
+    .social-list {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-top .social-link {
+      background-color: var(--white);
+      color: var(--winter-sky);
+      font-size: 18px;
+      padding: 8px;
+      border-radius: 50%;
+    }
+
+    .footer-top .social-link:is(:hover, :focus) {
+      background-image: var(--gradient-2);
+      color: var(--white);
+    }
+
+    .footer-list:not(:last-child) { margin-block-end: 25px; }
+
+    .footer-list-title {
+      font-family: var(--ff-source-sans-pro);
+      font-size: var(--fs-5);
+      font-weight: var(--fw-700);
+      margin-block-end: 15px;
+    }
+
+    .footer-link { padding-block: 5px; }
+
+    :is(.footer-link, .footer-item-link):not(address):is(:hover, :focus) { text-decoration: underline; }
+
+    .footer-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      padding-block: 10px;
+    }
+
+    .footer-item-icon {
+      background-image: var(--gradient-2);
+      padding: 13px;
+      border-radius: 50%;
+    }
+
+    .footer-bottom {
+      background-color: var(--space-cadet-2);
+      padding: 20px;
+      text-align: center;
+      color: var(--white);
+    }
+
+    .copyright-link {
+      display: inline-block;
+      text-decoration: underline;
+    }
+
+    .copyright-link:is(:hover, :focus) { text-decoration: none; }
+
+    /* Go to top button */
+    .go-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--winter-sky);
+      color: var(--white);
+      font-size: 2rem;
+      padding: 10px;
+      border-radius: 50%;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-1);
+      z-index: 2;
+    }
+
+    .go-top.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Media queries for responsive design */
+    @media (min-width: 768px) {
+      .legal-content {
+        padding: 150px 40px 80px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .header .container { max-width: 960px; }
+      .legal-content {
+        padding: 180px 60px 100px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .header .container { max-width: 1140px; }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.html">
+        <h1 class="logo">BuildSoft IT Solutions</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">BuildSoft IT Solutions</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link" data-navbar-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#Services" class="navbar-link" data-navbar-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#features" class="navbar-link" data-navbar-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#footer" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="legal-content">
+      <div class="legal-header">
+        <h1 class="legal-title">Privacy Policy</h1>
+        <div class="title-underline"></div>
+      </div>
+      
+      <div class="table-of-contents">
+        <h3>Table of Contents</h3>
+        <ul class="toc-list">
+          <li><a href="#introduction">1. Introduction</a></li>
+          <li><a href="#collection">2. Collection of Information</a></li>
+          <li><a href="#usage">3. Usage of Information</a></li>
+          <li><a href="#sharing">4. Sharing of Information</a></li>
+          <li><a href="#security">5. Security Precautions</a></li>
+          <li><a href="#deletion">6. Data Deletion and Retention</a></li>
+          <li><a href="#rights">7. Your Rights</a></li>
+          <li><a href="#consent">8. Consent</a></li>
+          <li><a href="#changes">9. Changes to Privacy Policy</a></li>
+        </ul>
+      </div>
+      
+      <div class="legal-card">
+        <div class="policy-section" id="introduction">
+          <div class="legal-icon">
+            <ion-icon name="shield-outline"></ion-icon>
+          </div>
+          <h2 class="legal-subtitle">1. Introduction</h2>
+          <p class="legal-text">
+            This Privacy Policy describes how BUILDSOFT IT SOLUTIONS PRIVATE LIMITED and its
+            affiliates (collectively "BUILDSOFT IT SOLUTIONS PRIVATE LIMITED, we, our, us") collect,
+            use, share, protect or otherwise process your information/ personal data through our website
+            https://buildsoftit.com (hereinafter referred to as Platform). Please note that you may be able to browse
+            certain sections of the Platform without registering with us.
+          </p>
+          <div class="policy-highlight">
+            <p>Important Notice:</p>
+            <ul class="policy-list">
+              <li>We do not offer any product/service under this Platform outside India</li>
+              <li>Your personal data will primarily be stored and processed in India</li>
+              <li>By using our Platform, you agree to be bound by this Privacy Policy</li>
+              <li>If you do not agree, please do not use or access our Platform</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="policy-section" id="collection">
+          <h2 class="legal-subtitle">2. Collection of Information</h2>
+          <p class="legal-text">
+            We collect your personal data when you use our Platform, services or otherwise interact with
+            us during the course of our relationship and related information provided from time to time. Some of the
+            information that we may collect includes but is not limited to personal data / information provided to us
+            during sign-up/registering or using our Platform such as:
+          </p>
+          <ul class="policy-list">
+            <li>Name</li>
+            <li>Date of birth</li>
+            <li>Address</li>
+            <li>Telephone/mobile number</li>
+            <li>Email ID</li>
+            <li>Information shared as proof of identity or address</li>
+          </ul>
+          <p class="legal-text">
+            Some of the sensitive personal data may be collected with your consent, such as your bank account or credit or debit
+            card or other payment instrument information or biometric information such as your facial features or
+            physiological information (in order to enable use of certain features when opted for, available on the
+            Platform) etc all of the above being in accordance with applicable law(s).
+          </p>
+          <p class="legal-text">
+            You always have the option to not provide information, by choosing not to use a particular service or feature on the Platform. We may
+            track your behaviour, preferences, and other information that you choose to provide on our Platform.
+            This information is compiled and analysed on an aggregated basis.
+          </p>
+          <div class="policy-highlight">
+            <p>Security Warning:</p>
+            <p class="legal-text">If you receive an email or a call from a person/association claiming to be BUILDSOFT
+            IT SOLUTIONS PRIVATE LIMITED seeking any personal data like debit/credit card PIN, net-banking or mobile banking password, we request you to never provide such information. If you have
+            already revealed such information, report it immediately to an appropriate law enforcement agency.</p>
+          </div>
+        </div>
+        
+        <div class="policy-section" id="usage">
+          <h2 class="legal-subtitle">3. Usage of Information</h2>
+          <p class="legal-text">
+            We use personal data to provide the services you request. To the extent we use your personal data
+            to market to you, we will provide you the ability to opt-out of such uses. We use your personal data to:
+          </p>
+          <ul class="policy-list">
+            <li>Assist sellers and business partners in handling and fulfilling orders</li>
+            <li>Enhance customer experience</li>
+            <li>Resolve disputes</li>
+            <li>Troubleshoot problems</li>
+            <li>Inform you about online and offline offers, products, services, and updates</li>
+            <li>Customize your experience</li>
+            <li>Detect and protect us against error, fraud and other criminal activity</li>
+            <li>Enforce our terms and conditions</li>
+            <li>Conduct marketing research, analysis and surveys</li>
+          </ul>
+          <p class="legal-text">
+            You understand that your access to these products/services may be affected in the event permission is not provided to us.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="sharing">
+          <h2 class="legal-subtitle">4. Sharing of Information</h2>
+          <p class="legal-text">
+            We may share your personal data internally within our group entities, our other corporate
+            entities, and affiliates to provide you access to the services and products offered by them. These entities
+            and affiliates may market to you as a result of such sharing unless you explicitly opt-out.
+          </p>
+          <p class="legal-text">
+            We may disclose personal data to third parties such as:
+          </p>
+          <ul class="policy-list">
+            <li>Sellers and business partners</li>
+            <li>Third party service providers including logistics partners</li>
+            <li>Prepaid payment instrument issuers</li>
+            <li>Third-party reward programs</li>
+            <li>Other payment options selected by you</li>
+          </ul>
+          <p class="legal-text">
+            These disclosures may be required for us to provide you access to our services and
+            products offered to you, to comply with our legal obligations, to enforce our user agreement, to facilitate
+            our marketing and advertising activities, to prevent, detect, mitigate, and investigate fraudulent or illegal
+            activities related to our services.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="security">
+          <h2 class="legal-subtitle">5. Security Precautions</h2>
+          <p class="legal-text">
+            To protect your personal data from unauthorised access or disclosure, loss or
+            misuse we adopt reasonable security practices and procedures. Once your information is in our
+            possession or whenever you access your account information, we adhere to our security guidelines to
+            protect it against unauthorised access and offer the use of a secure server.
+          </p>
+          <p class="legal-text">
+            However, the transmission of information is not completely secure for reasons beyond our control. By using the Platform, the users
+            accept the security implications of data transmission over the internet and the World Wide Web which
+            cannot always be guaranteed as completely secure, and therefore, there would always remain certain
+            inherent risks regarding use of the Platform.
+          </p>
+          <p class="legal-text">
+            Users are responsible for ensuring the protection of login and password records for their account.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="deletion">
+          <h2 class="legal-subtitle">6. Data Deletion and Retention</h2>
+          <p class="legal-text">
+            You have an option to delete your account by visiting your profile and
+            settings on our Platform, this action would result in you losing all information related to your account.
+            You may also write to us at the contact information provided below to assist you with these requests.
+          </p>
+          <p class="legal-text">
+            We may in event of any pending grievance, claims, pending shipments or any other services we may refuse
+            or delay deletion of the account. Once the account is deleted, you will lose access to the account.
+          </p>
+          <p class="legal-text">
+            We retain your personal data information for a period no longer than is required for the purpose for which it
+            was collected or as required under any applicable law. However, we may retain data related to you if we
+            believe it may be necessary to prevent fraud or future abuse or for other legitimate purposes. We may
+            continue to retain your data in anonymised form for analytical and research purposes.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="rights">
+          <h2 class="legal-subtitle">7. Your Rights</h2>
+          <p class="legal-text">
+            You may access, rectify, and update your personal data directly through the functionalities
+            provided on the Platform.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="consent">
+          <h2 class="legal-subtitle">8. Consent</h2>
+          <p class="legal-text">
+            By visiting our Platform or by providing your information, you consent to the collection, use,
+            storage, disclosure and otherwise processing of your information on the Platform in accordance with this
+            Privacy Policy. If you disclose to us any personal data relating to other people, you represent that you
+            have the authority to do so and permit us to use the information in accordance with this Privacy Policy.
+          </p>
+          <p class="legal-text">
+            You, while providing your personal data over the Platform or any partner platforms or establishments,
+            consent to us (including our other corporate entities, affiliates, lending partners, technology partners,
+            marketing channels, business partners and other third parties) to contact you through SMS, instant
+            messaging apps, call and/or e-mail for the purposes specified in this Privacy Policy.
+          </p>
+          <div class="policy-highlight">
+            <p>Withdrawal of Consent:</p>
+            <p class="legal-text">
+              You have an option to withdraw your consent that you have already provided by writing to the Grievance Officer at the
+              contact information provided below. Please mention "Withdrawal of consent for processing personal
+              data" in your subject line of your communication. We may verify such requests before acting on our
+              request.
+            </p>
+          </div>
+          <p class="legal-text">
+            However, please note that your withdrawal of consent will not be retrospective and will be in
+            accordance with the Terms of Use, this Privacy Policy, and applicable laws. In the event you withdraw
+            consent given to us under this Privacy Policy, we reserve the right to restrict or deny the provision of our
+            services for which we consider such information to be necessary.
+          </p>
+        </div>
+        
+        <div class="policy-section" id="changes">
+          <h2 class="legal-subtitle">9. Changes to Privacy Policy</h2>
+          <p class="legal-text">
+            Please check our Privacy Policy periodically for changes. We may
+            update this Privacy Policy to reflect changes to our information practices. We may alert / notify you
+            about the significant changes to the Privacy Policy, in the manner as may be required under applicable
+            laws.
+          </p>
+        </div>
+        
+        <div class="contact-box">
+          <h3>Questions about our Privacy Policy?</h3>
+          <p>Contact our Grievance Officer at <a href="mailto:contact.buildsoftit@gmail.com">contact.buildsoftit@gmail.com</a> or call us at <a href="tel:+919730708652">+91 97307-08652</a>.</p>
+          <a href="index.html#footer" class="contact-btn">Contact Us</a>
+        </div>
+      </div>
+      
+      <div class="legal-note">
+        <p>This policy was last updated on August 15, 2023.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer" id="footer">
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">BuildSoft IT Solutions</a>
+          <p class="text">
+            BuildSoft IT Solutions is a leading IT solutions provider specializing in web development, custom software, and digital marketing. We empower businesses with innovative, results-driven technology solutions.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="index.html#Services" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Team</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="terms-and-conditions.html" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="refund.html" class="footer-link">Refund</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="call:+919730708652" class="footer-item-link">+9197307-08652</a>
+              <a href="call:+917420962807" class="footer-item-link">+9174209-62807</a>
+            </div>
+          </li>
+
+          <li class="footer-item">
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:contact.buildsoftit@gmail.com" class="footer-item-link">contact.buildsoftit@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="footer-item">
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              B-5 Shiva-yatan Complex, Wardha Rd, Somalwada square,somalwada Nagpur - 440025
+            </address>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2025 <a href="#" class="copyright-link">BuildSoft IT Solutions</a>. All Right Reserved
+      </p>
+    </div>
+  </footer>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+  <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script>
+    'use strict';
+
+    /**
+     * navbar toggle
+     */
+    const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+    const navbar = document.querySelector("[data-navbar]");
+    const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+    const overlay = document.querySelector("[data-overlay]");
+
+    const elemArr = [navCloseBtn, overlay, navOpenBtn];
+
+    for (let i = 0; i < elemArr.length; i++) {
+      elemArr[i].addEventListener("click", function () {
+        navbar.classList.toggle("active");
+        overlay.classList.toggle("active");
+      });
+    }
+
+    /**
+     * toggle navbar & overlay when click any navbar-link
+     */
+    const navbarLinks = document.querySelectorAll("[data-navbar-link]");
+
+    for (let i = 0; i < navbarLinks.length; i++) {
+      navbarLinks[i].addEventListener("click", function () {
+        navbar.classList.toggle("active");
+        overlay.classList.toggle("active");
+      });
+    }
+
+    /**
+     * header & go-top-btn active
+     * when window scroll down to 400px
+     */
+    const header = document.querySelector("[data-header]");
+    const goTopBtn = document.querySelector("[data-go-top]");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY >= 400) {
+        header.classList.add("active");
+        goTopBtn.classList.add("active");
+      } else {
+        header.classList.remove("active");
+        goTopBtn.classList.remove("active");
+      }
+    });
+  </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
