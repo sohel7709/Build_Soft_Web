@@ -231,12 +231,12 @@ export const socialHandles = [
   {
     name: "LinkedIn",
     icon: FaLinkedin,
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/buildsoft-it-solutions-pvt-ltd",
   },
   {
     name: "Youtube",
     icon: FaYoutube,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "",
   },
 ];
 
